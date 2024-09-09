@@ -1,0 +1,33 @@
+.sidebar-section {
+	display: flex;
+	background-color: #313131;
+}
+
+.sidebar {
+	height: 100vh;
+	background-color: #1e1e2c;
+	width: 90px;
+	position: fixed;
+	z-index: 1;
+}
+.sidebar-toggle {
+	width: 200px;
+}
+.sidebar-toggle-icons {
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	cursor: pointer;
+}
+.sidebar-toggle-icons p svg {
+	background-color: #138781;
+	color: white;
+	margin-top: 10px;
+}
+
+/* ==== MOBILE VIEW ========== */
+@media (max-width: 600px) {
+	.sidebar {
+		display: none;
+	}
+}

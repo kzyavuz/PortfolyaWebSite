@@ -1,0 +1,61 @@
+.work {
+	background-color: #1387812a;
+	margin: 40px 0px;
+	padding: 20px;
+	margin-left: 140px;
+	box-shadow: 0px 4px 8px 0px #757575;
+	border-radius: 0px;
+}
+
+.work-exp h2 {
+	font-weight: bold;
+	color: #1e1e2c;
+}
+
+.work-exp #work-date {
+	color: #1e1e2c;
+}
+
+.work-exp hr {
+	color: #1e1e2c;
+	width: 400px;
+	margin: 10px auto;
+}
+
+.work-exp .vertical-timeline-element-title {
+	color: #1e1e2c;
+}
+
+.work-exp .vertical-timeline-element-subtitle {
+	color: #1e1e2c;
+}
+
+/* ===== DARK MODE ========== */
+#dark .work {
+	background-color: rgba(255, 255, 255, 0.095);
+	color: azure;
+}
+
+#dark .work-exp h2 {
+	color: azure;
+}
+
+#dark .work-exp #work-date {
+	color: azure;
+}
+
+#dark .work-exp #work-hr {
+	color: azure;
+}
+/* =================== */
+
+@media (max-width: 600px) {
+	.work {
+		margin: 0;
+		padding: 0;
+		margin-top: 50px;
+	}
+	.work hr {
+		width: 280px;
+	}
+}
