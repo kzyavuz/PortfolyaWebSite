@@ -38,7 +38,7 @@ Api olustuğunda otomatikmen veri tabanınız olusacaktır.
            kodunu yazınız.
    artık http://localhost:****/SignUp a gittiğinizde yeni kullanıcı oluturabilir ve projeye veri eklemesi yapabilirsiniz.
 
-   3) PortfolyoWebSite projesini açın ve sırasıyla npm install -force ve npm start komutlarını çalıstırın.
+3) PortfolyoWebSite projesini açın ve sırasıyla npm install -force ve npm start komutlarını çalıstırın.
 
       Proje tamamen kuruldu ve kullanıma hazırdır.
 
